@@ -1,6 +1,8 @@
-// This file has intentional linting errors to test the workflow
-console.log("Hello world") // Missing semicolon, double quotes (violates quotes and semi rules)
-let unusedVariable = 42; // Unused variable (violates no-unused-vars)
+// Fixed example.js - now passes ESLint linting
+console.log('Hello world');
 function testFunction() {
-  return "test value" // Missing semicolon, double quotes
+  return 'test value';
 }
+
+// Call the function to demonstrate valid usage
+testFunction();
